@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mayday</groupId>
+    <artifactId>crowdfunding</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>crowdfunding01-admin-parent</module>
+        <module>crowdfunding01-admin-parent/crowdfunding02-admin-webui</module>
+        <module>crowdfunding01-admin-parent/crowdfunding03-admin-component</module>
+        <module>crowdfunding01-admin-parent/crowdfunding04-admin-entity</module>
+        <module>crowdfunding05-common-util</module>
+        <module>crowdfunding06-common-reverse</module>
+    </modules>
+
+
+</project>
